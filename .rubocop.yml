@@ -1,0 +1,24 @@
+AllCops:
+  TargetRubyVersion: 2.6.5
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/schema.rb'
+    - 'bin/*'
+    - 'config/*'
+    - 'node_modules/**/*'
+
+Metrics/MethodLength:
+  Max: 25
+
+Naming/PredicateName:
+  Exclude:
+    - 'spec/**/*'
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120

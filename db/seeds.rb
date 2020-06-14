@@ -2,7 +2,7 @@
 user = {
   email: "admin@mail.com",
   password: "11111111",
-  passowrd_confirmation: "11111111",
+  password_confirmation: "11111111",
   first_name: "Admin",
   last_name: "Blog"
 }
@@ -24,7 +24,7 @@ categories = [
 
 first_user = User.create!(email: user[:email],
             password: user[:password], 
-            passowrd_confirmation: user[:passowrd_confirmation], 
+            password_confirmation: user[:password_confirmation], 
             first_name: user[:first_name], 
             last_name: user[:last_name])
 
